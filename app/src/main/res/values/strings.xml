@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="secondName">Фамилия</string>
+    <string name="firstName">Имя</string>
+    <string name="age">Возраст</string>
+    <string name="position">Должность</string>
+    <string name="save">Сохранить</string>
+    <string name="titleToolbar">Подбор персонала</string>
+    <string name="exit">Exit</string>
+</resources>

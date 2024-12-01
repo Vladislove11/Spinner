@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/fio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp">
+        <TextView
+            android:id="@+id/itemSecondNameET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/EditText"
+            android:textSize="26sp"
+            android:hint="@string/secondName"/>
+        <TextView
+            android:id="@+id/itemFirstNameET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="@color/EditText"
+            android:hint="@string/firstName"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/fio">
+        <TextView
+            android:id="@+id/itemAgeET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/EditText"
+            android:textSize="18sp"
+            android:hint="@string/age"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/itemPositionET"
+            android:layout_width="wrap_content"
+            android:textColor="@color/EditText"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:hint="@string/position"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
