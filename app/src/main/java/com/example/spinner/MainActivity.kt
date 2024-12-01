@@ -107,7 +107,15 @@ class MainActivity : AppCompatActivity() {
             listPersonAdapter?.notifyDataSetChanged()
             clearEditFields()
         }
+
+        listEmployeeLW.onItemClickListener =
+            AdapterView.OnItemClickListener { _, _, position, _ ->
+                val item = listPersonAdapter?.getItem(position)
+                listPersonAdapter?.remove(item)
+            }
     }
+
+
 
     private fun createPerson() {
         val firstName = firstNameET.text.toString()
